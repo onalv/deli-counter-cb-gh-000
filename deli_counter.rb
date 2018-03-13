@@ -7,11 +7,12 @@ end
 def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
-  else
+  else 
     "The line is currently: 1. Grace 2. Kents"
   end
 end
 
 def now_serving(katz_deli)
   puts "Currently serving #{katz_deli[0]}."
+  katz_deli.shift
 end
